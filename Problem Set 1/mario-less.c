@@ -6,10 +6,10 @@ void print_pyramid(int height);
 
 int main(void)
 {
-    //instead of do while loop
+    //assigns height from function below
     int height = get_height();
 
-    //print grid
+    //print pyramid
     print_pyramid(height);
 }
 
@@ -29,13 +29,13 @@ void print_pyramid(int height)
     //number of rows
     for (int row = 0; row < height; row++)
     {
-        // space
+        // spaces before #
         for (int space = 0; space < height - row - 1; space++)
         {
             printf(" ");
         }
 
-        //#
+        // # on the left side
         for (int block = 0; block < row + 1; block++)
         {
             printf("#");
