@@ -6,10 +6,10 @@ void print_pyramid(int height);
 
 int main(void)
 {
-    //instead of do while loop
+    //assigns height from function below 
     int height = get_height();
 
-    //print grid
+    //print pyramid
     print_pyramid(height);
 }
 
