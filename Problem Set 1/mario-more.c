@@ -26,10 +26,10 @@ int get_height(void)
 
 void print_pyramid(int height)
 {
-    //number or rows
+    //number of rows
     for (int row = 0; row < height; row++)
     {
-        // space
+        // spaces before #
         for (int space = 0; space < height - row - 1; space++)
         {
             printf(" ");
@@ -41,10 +41,10 @@ void print_pyramid(int height)
             printf("#");
         }
 
-        //two spaces
+        //two spaces in between 
         printf("  ");
 
-        //repeated blocks on right side:
+        //repeated blocks on right side
         for (int block = 0; block < row + 1; block++)
         {
             printf("#");
