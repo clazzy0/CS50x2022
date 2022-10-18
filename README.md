@@ -3,7 +3,7 @@ These are my solutions to the problem sets on CS50x. Within this repository cont
 
 Week 0: [Scratch](https://scratch.mit.edu/projects/745392915/)
 
-Week 1: [PSET1](https://github.com/clazzy0/CS50x2022/tree/main/Problem%20Set%201)
+Week 1: PSET1
   - [Hello](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%201/hello.c)
   - [Mario - Less Comftorable](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%201/mario-less.c)
   - [Mario - More Comftorable](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%201/mario-more.c)
