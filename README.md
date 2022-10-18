@@ -5,8 +5,8 @@ Week 0: [Scratch](https://scratch.mit.edu/projects/745392915/)
 
 Week 1: PSET1
   - [Hello](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%201/hello.c)
-  - [Mario - Less Comftorable](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%201/mario-less.c)
-  - [Mario - More Comftorable](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%201/mario-more.c)
+  - [Mario - Less Comfortable](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%201/mario-less.c)
+  - [Mario - More Comfortable](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%201/mario-more.c)
   - [Credit](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%201/credit.c)
 
 Week 2: 
