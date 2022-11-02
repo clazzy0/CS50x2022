@@ -9,7 +9,10 @@ Week 1: PSET1
   - [Mario - More Comfortable](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%201/mario-more.c)
   - [Credit](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%201/credit.c)
 
-Week 2: 
+Week 2: PSET2 and LAB2
+  - [Lab 2: Scrabble](https://github.com/clazzy0/CS50x2022/blob/main/LAB2/scrabble.c)
+  - [Readability](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%202/readability.c)
+  - [Substitution](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%202/substitution.c)
 
 # Disclaimer: 
 Please read and follow the [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/).
