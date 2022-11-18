@@ -1,0 +1,11 @@
+sort1 uses: bubble
+
+How do you know?: reversed is 6s (using reversed50000), random is 8.5s (using random50000). Determined from explanation in sort3 that sort1 uses bubble sort.
+
+sort2 uses: merge
+
+How do you know?: reversed is 1.3s, random is 1.17. Merge sort is straight up the fastest, splitting up numbers, and the re-merging them, having O(nlogn).
+
+sort3 uses: selection
+
+How do you know?: reversed is 3.9s, random is 1.2s. While selection sort bubble sort are around the same-ish with O(n^2), selection sort will be a lot faster in the reversed set because it will go n + (n-1) + (n-2) ... + 1, which is a lot better than bubble sort, which will go around 50,000 times. Because sort 2 is already determined to be merge sort, sort3 must be selection sort.
