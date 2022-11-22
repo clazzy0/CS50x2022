@@ -13,6 +13,16 @@ Week 2: PSET2 and LAB2
   - [Lab 2: Scrabble](https://github.com/clazzy0/CS50x2022/blob/main/LAB2/scrabble.c)
   - [Readability](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%202/readability.c)
   - [Substitution](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%202/substitution.c)
+  
+ Week 3: PSET3 and LAB3
+  - [Lab 3: Sorting Algorithms](https://github.com/clazzy0/CS50x2022/blob/main/LAB3/answers.txt)
+  - [Plurality](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%203/plurality.c)
+  - [Tideman](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%203/tideman.c)
+  
+ Week 4: PSET4 and LAB4
+  - [Lab 4: Volume Changer](https://github.com/clazzy0/CS50x2022/blob/main/LAB4/volume.c)
+  - [Filter - More Comfortable](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%204/filter-more/helpers.c)
+  - [Recover](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%204/recover/recover.c)
 
 # Disclaimer: 
 Please read and follow the [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/).
