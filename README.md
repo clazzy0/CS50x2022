@@ -1,5 +1,5 @@
 # CS50x2022
-These are my solutions to the problem sets on CS50x. Within this repository contains my code solutions to the problem sets. Please use this repository to give suggestions on my code, or even learn from a fellow peer. Before viewing any code, please be finished with your own problem set / solutions. Thanks! 
+These are my solutions to the problem sets on CS50x. Within this repository contains my code solutions to the problem sets. Please use this repository to give suggestions on my code, or even learn from a fellow peer. Before viewing any code, please be finished with your own problem set / solutions.
 
 Week 0: [Scratch](https://scratch.mit.edu/projects/745392915/)
 
@@ -23,6 +23,10 @@ Week 2: PSET2 and LAB2
   - [Lab 4: Volume Changer](https://github.com/clazzy0/CS50x2022/blob/main/LAB4/volume.c)
   - [Filter - More Comfortable](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%204/filter-more/helpers.c)
   - [Recover](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%204/recover/recover.c)
+  
+ Week 5: PSET5 and LAB5
+  - [Lab 5: Inheritance](https://github.com/clazzy0/CS50x2022/blob/main/LAB5/inheritance.c)
+  - [Speller](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%205/dictionary.c)
 
 # Disclaimer: 
 Please read and follow the [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/).
