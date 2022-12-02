@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!--Add multiple choice question here -->
+                <h3>Why did Dr. Seuss Write <em>Green Eggs and Ham</em>?</h3>
+                <button type="button" class="right1">It was part of a bet.</button>
+                <button type="button" class="wrong1">He needed money desperately.</button>
+                <button type="button" class="wrong2">He wanted to break the record for amount of books published.</button>
+                <script>
+                    let button1 = document.querySelector('.right1');
+                    let button2 = document.querySelector('.wrong1');
+                    let button3 = document.querySelector('.wrong2');
+
+                    button1.addEventListener('click', function() {
+                        button1.style.backgroundColor = 'green';
+                        button1.innerHTML = "Correct";
+                    });
+
+                    button2.addEventListener('click', function() {
+                        button2.style.backgroundColor = 'red';
+                        button2.innerHTML = "Incorrect";
+                    });
+
+                    button3.addEventListener('click', function() {
+                        button3.style.backgroundColor = 'red';
+                        button3.innerHTML = "Incorrect";
+                    });
+                </script>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!--Add free response question here -->
+                <h3>Which sport uses a Sliotar as the offical ball?</h3>
+                <!--Answer is hurling-->
+                <form>
+                    <input class="text" type="text">
+                    <input class="submission" type="submit" value="Check Answer">
+                </form>
+                <h3 class="confirmation">
+
+                </h3>
+                <script>
+                    let confirmation = document.querySelector('.confirmation');
+                    let submission = document.querySelector('.submission');
+                    let text = document.querySelector('.text');
+
+                    submission.addEventListener('click', function(event) {
+                        event.preventDefault();
+                        if (text.value == "Hurling" || text.value == "hurling")
+                        {
+                            text.style.backgroundColor = 'green';
+                            confirmation.innerHTML = 'Correct';
+
+                        }
+                        else
+                        {
+                            text.style.backgroundColor = 'red';
+                            document.write('Incorrect');
+                            confirmation.innerHTML = 'Incorrect';
+                        }
+                    });
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
