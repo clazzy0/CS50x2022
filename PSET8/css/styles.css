@@ -1,0 +1,79 @@
+/* Home Page */
+.nav-item {
+    height: 50px;
+}
+
+.nav-link {
+    margin-top: 5px;
+    height: 85px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+video {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#overlay-txt {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    position: absolute;
+}
+
+.greeting {
+    font-size: 500%;
+    background: -webkit-linear-gradient(#36d1dc, #5b86e5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body.about {
+    background-color: #a5f1e9;
+}
+
+.description {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+body.hobbies {
+    background-color: #495579;
+}
+
+.container1 {
+    padding-top: 30px;
+    padding-left: 20%;
+}
+
+.container2 {
+    padding-top: 50px;
+    padding-left: 20%;
+}
+
+body.contact {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: table;
+    font-family: "Times New Roman", Times, serif;
+}
+
+a[href="https://github.com/clazzy0/CS50x2022"]
+{
+    padding-left: 20px;
+    width: 150px;
+}
+
+.form_contact {
+    display: table; /* shrinks to fit content */
+    margin: auto;
+}
