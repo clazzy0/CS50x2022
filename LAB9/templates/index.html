@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="/static/styles.css" rel="stylesheet">
+        <title>Birthdays</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Birthdays</h1>
+        </div>
+        <div class="container">
+            <div class="section">
+
+                <h2>Add a Birthday</h2>
+                <form action="/" method="post">
+                    <input type="text" name="name" placeholder="Name">
+                    <select name="month">
+                        <option name="default">Month</option>
+                        {% for i in range(1, 13) %}
+                        <option>{{ i }}</option>
+                        {% endfor %}
+                    </select>
+                    <select name="day">
+                        <option name="default">Day</option>
+                        {% for i in range(1, 31) %}
+                        <option>{{ i }}</option>
+                        {% endfor %}
+                    </select>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div class="section">
+
+                <h2>All Birthdays</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Birthday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for data in data_all %}
+                        <tr>
+                            <td>{{ data["name"] }}</td>
+                            <td>{{ data["birthday"] }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
