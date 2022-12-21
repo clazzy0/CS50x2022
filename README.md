@@ -29,6 +29,27 @@ These are my solutions to the problem sets on CS50x. Within this repository cont
 **Week 5: PSET5 and LAB5**
   - [Lab 5: Inheritance](https://github.com/clazzy0/CS50x2022/blob/main/LAB5/inheritance.c)
   - [Speller](https://github.com/clazzy0/CS50x2022/blob/main/Problem%20Set%205/dictionary.c)
+  
+**Week 6: PSET6 and LAB6**
+  - [Lab 6: World Cup](https://github.com/clazzy0/CS50x2022/blob/main/LAB6/tournament.py)
+  - [Hello](https://github.com/clazzy0/CS50x2022/blob/main/PSET6/hello.py)
+  - [Mario](https://github.com/clazzy0/CS50x2022/blob/main/PSET6/mario.py)
+  - [Credit](https://github.com/clazzy0/CS50x2022/blob/main/PSET6/credit.py)
+  - [Readability](https://github.com/clazzy0/CS50x2022/blob/main/PSET6/readability.py)
+  - [DNA](https://github.com/clazzy0/CS50x2022/blob/main/PSET6/dna/dna.py)
+
+**Week 7: PSET7 and LAB7**
+  - [Lab 7: Songs](https://github.com/clazzy0/CS50x2022/tree/main/LAB7)
+  - [Movies](https://github.com/clazzy0/CS50x2022/tree/main/PSET7/movies)
+  - [Fiftyville](https://github.com/clazzy0/CS50x2022/blob/main/PSET7/fiftyville/log.sql)
+
+**Week 8: PSET8 and LAB8**
+  - [Lab 8: Trivia](https://github.com/clazzy0/CS50x2022/blob/main/LAB8/index.html)
+  - [Homepage](https://github.com/clazzy0/CS50x2022/tree/main/PSET8)
+  
+**Week 9: PSET9 and LAB9**
+  - [Lab 9: Birthdays](https://github.com/clazzy0/CS50x2022/blob/main/LAB9/app.py)
+  - [Finance](https://github.com/clazzy0/CS50x2022/blob/main/PSET9/app.py)
 
 ## Disclaimer: 
 Please read and follow the [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/).
