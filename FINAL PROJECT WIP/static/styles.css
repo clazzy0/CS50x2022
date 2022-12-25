@@ -1,0 +1,173 @@
+body{
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+hr {
+    margin-top: -20px;
+}
+.api-usage-normal {
+    text-align: center;
+    margin-top: -30px;
+    color: #5C3D2E;
+}
+
+.api-usage-search {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.api-usage-txt {
+    font-size: 17px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+/* navbar */
+.navbar-expand-lg {
+    background-color: #379237
+}
+
+.nav-txt {
+    color: #f6fbf4;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.nav-pills > li > a.active {
+    background-color: #5C3D2E !important;
+    color: #f6fbf4 !important;
+}
+
+.nav-item {
+    margin-left: 6px;
+}
+
+.background-image {
+    position: relative;
+    background-image: url("/static/background-img.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 96vh;
+}
+
+.brand {
+    color: #fcf6f5ff; 
+    font-family: 'Poppins', sans-serif"
+}
+
+/* search box */
+.search-box{
+    width: 100%;
+    position: relative;
+    display: flex;
+    height: 55px;
+    width: 475px;
+    background: white;
+    border-radius: 20px;
+
+}
+.search-input{
+    width: 100%;
+    padding: 10px;
+    border: 4px solid #1A120B;
+    border-radius:10px 0 0 10px ;
+    border-right: none;
+    outline: none;
+    font-size: 25px;
+    color: #379237;
+    font-weight: bold; 
+}
+.search-button{
+    text-align: center;
+    height: 55px;
+    width: 40px;
+    outline: none;
+    cursor: pointer;
+    border: 4px solid #1A120B;
+    border-radius: 0 10px 10px 0 ;
+    border-left: none;
+    background: none;
+    font-size: 20px;
+    border-left: 4px solid #1A120B;
+}
+
+/* result */
+.row {
+    margin-top: -15px;
+}
+/* for big text on search page */
+.greeting{
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #91D8E4, #00b09b, #FFE000, #f05053);
+    background-color: rgba(255, 246, 189, 0.7);
+    border-radius: 25px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 105px;
+    right: 50%;
+    bottom: 60%;
+    transform: translate(50%, 50%);
+    position: absolute;
+}
+
+/* for the search bar placement */
+.container-search{
+    width: 35%;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50% , -50%);
+    display: flex;
+    justify-content: center;
+}
+
+/* result.html */ 
+.card {
+    height: 385px;
+}
+
+.recipe-btn {
+    position: absolute;
+    top: 330px;
+}
+
+/* error.html */
+.kermit-error {
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* recipe.html */
+.recipe-title {
+    margin-top: 3vh;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.recipe-img-parent {
+    text-align: center;
+}
+
+.recipe-img {
+    width: 450px;
+    height: 350px;
+    padding-top: 20px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 5px;
+}
+
+.recipe-summary {
+    padding-top: 30px;
+    font-family: 'PT Serif', serif;
+}
