@@ -11,7 +11,7 @@
         />
 
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="/static/styles.css" />
         <script
             src="https://kit.fontawesome.com/43dcc20e7a.js"
             crossorigin="anonymous"
@@ -106,6 +106,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
+                        {% if session["user_id"] %}
                         <ul class="navbar-nav nav-pills">
                             <li class="nav-item">
                                 <a
@@ -136,6 +137,63 @@
                                 >
                             </li>
                         </ul>
+                        <ul class="navbar-nav nav-text-left">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link nav-text-left"
+                                    href="{{ url_for('logout') }}"
+                                    >Logout</a
+                                >
+                            </li>
+                        </ul>
+                        {% else %}
+                        <ul class="navbar-nav nav-pills">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link nav-txt {{ active1 }}"
+                                    href="{{ url_for('search') }}"
+                                    >Search</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link nav-txt {{ active2 }}"
+                                    href="{{ url_for('recommendation') }}"
+                                    >Recommendations</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link nav-txt {{ active3 }}"
+                                    href="{{ url_for('plans') }}"
+                                    >Meal Plan</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link nav-txt {{ active4 }}"
+                                    href="{{ url_for('history') }}"
+                                    >History</a
+                                >
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav nav-text-left">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link nav-text-left"
+                                    href="{{ url_for('register') }}"
+                                    >Register</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link nav-text-left"
+                                    href="{{ url_for('login') }}"
+                                    >Login</a
+                                >
+                            </li>
+                        </ul>
+                        {% endif %}
                     </div>
                 </div>
             </nav>
