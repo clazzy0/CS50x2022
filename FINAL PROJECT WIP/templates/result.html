@@ -1,0 +1,68 @@
+{% extends "layout.html" %}
+
+<!-- title -->
+{% block title %} Custom Result {% endblock %}
+
+<!-- Main Body -->
+{% block main %}
+<div class="container">
+    <div class="row gy-3 my-3">
+        <div class="row g-3">
+            {% for i in range(8) %}
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card" style="width: 18rem">
+                    {% if not ids[i] %}
+                    <img
+                        src="/static/images/no-result-img.jpg"
+                        alt="No Result"
+                        class="card-img-top"
+                        width="400"
+                        height="200"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">No Result</h5>
+                        <p class="card-text">
+                            Sorry! There were no other recipes :(
+                        </p>
+                        <form action="/search" method="GET">
+                            <button
+                                type="submit"
+                                class="btn btn-primary recipe-btn"
+                            >
+                                Go Back to Search
+                            </button>
+                        </form>
+                    </div>
+                    {% else %}
+                    <img
+                        src="{{ images[i] }}"
+                        alt="{{ descriptions[i] }}"
+                        class="card-img-top"
+                        width="400"
+                        height="200"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">{{ titles[i] }}</h5>
+                        <p class="card-text">{{ descriptions[i] }}</p>
+                        <form action="/recipe" method="POST">
+                            <button
+                                name="get-recipe-button"
+                                value="{{ ids[i] }}"
+                                type="submit"
+                                class="btn btn-primary recipe-btn"
+                            >
+                                Get Recipe {{ i + 1 }}
+                            </button>
+                        </form>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<br />
+<hr />
+<br />
+{% endblock %}

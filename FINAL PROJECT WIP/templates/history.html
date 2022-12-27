@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+<!-- title -->
+{% block title %} History {% endblock %}
+
+<!-- Main Body -->
+{% block main %} {% if session["user_id"] %}
+<br />
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Search</th>
+            <th scope="col">Recipe</th>
+            <th scope="col">Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for search_history in user_history %}
+        <tr>
+            <th scope="row">{{ loop.index }}</th>
+            <td>{{ search_history["search_query"] }}</td>
+            <td>{{ search_history["recipe_name"] }}</td>
+            <td>{{ search_history["date"] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<br />
+<hr />
+<br />
+{% else %}
+<h2 class="no-access-warning-txt">
+    To access this page, either <a href="/register">register</a> or
+    <a href="/login">login</a>.
+</h2>
+<br />
+<br />
+<hr />
+<br />
+{% endif %} {% endblock %}
