@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+<!-- title -->
+{% block title %} {{ titles }} Recipe {% endblock %} {% block main %}
+<h1 class="recipe-title">{{ recipe_title[0] }}</h1>
+<div class="recipe-img-parent">
+    <img
+        class="recipe-img"
+        src="{{ recipe_image[0] }}"
+        alt="{{ recipe_title[0] }} image"
+    />
+</div>
+
+<div class="row d-flex justify-content-center">
+    <div class="col-10 pb-5 text-center recipe-summary">
+        <h3>{{ recipe_summary[0]|safe}}</h3>
+    </div>
+</div>
+<hr />
+<br />
+{% endblock %}
