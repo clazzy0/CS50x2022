@@ -52,7 +52,7 @@ These are my solutions to the problem sets on CS50x. Within this repository cont
   - [Finance](https://github.com/clazzy0/CS50x2022/blob/main/PSET9/app.py)
 
 ## Certificate of Completion: 
-![Certificate of Completion](https://github.com/clazzy0/CS50x2022/blob/main/CS50x2022%20Certificate.pdf?raw=true)
+![CS50x2022 Certificate.pdf](https://github.com/clazzy0/CS50x2022/blob/77abeab5d840cafbf2ae5f8f569c8c18379a440d/CS50x2022%20Certificate.pdf)
 
 ## Disclaimer: 
 Please read and follow the [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/).
