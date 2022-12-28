@@ -22,8 +22,7 @@ Session(app)
 # Configure flask_sqlalchemy library to use SQLite database
 db = SQL("sqlite:///history.db")
 
-#API KEY
-""" export API_KEY=1de24e617ade4a9c8cea38ee0d75b3c """
+#API
 api_key = os.environ['API_KEY']
 if not os.environ.get("API_KEY"):
     raise RuntimeError("API_KEY not set")
