@@ -51,8 +51,11 @@ These are my solutions to the problem sets on CS50x. Within this repository cont
   - [Lab 9: Birthdays](https://github.com/clazzy0/CS50x2022/blob/main/LAB9/app.py)
   - [Finance](https://github.com/clazzy0/CS50x2022/blob/main/PSET9/app.py)
 
+**Week 10: Final Project**
+  - [The Cookbook](https://github.com/clazzy0/cookbook-flask)
+
 ## Certificate of Completion: 
-![CS50x2022 Certificate.pdf](https://github.com/clazzy0/CS50x2022/blob/77abeab5d840cafbf2ae5f8f569c8c18379a440d/CS50x2022%20Certificate.pdf)
+<img width="1005" alt="CS50x-Certificate" src="https://user-images.githubusercontent.com/102634983/209749147-1bc79363-8a25-4659-a10c-d4523e2aa7d5.png">
 
 ## Disclaimer: 
 Please read and follow the [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/).
