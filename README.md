@@ -51,5 +51,8 @@ These are my solutions to the problem sets on CS50x. Within this repository cont
   - [Lab 9: Birthdays](https://github.com/clazzy0/CS50x2022/blob/main/LAB9/app.py)
   - [Finance](https://github.com/clazzy0/CS50x2022/blob/main/PSET9/app.py)
 
+## Certificate of Completion: 
+![Certificate of Completion](https://github.com/clazzy0/CS50x2022/blob/main/CS50x2022%20Certificate.pdf?raw=true)
+
 ## Disclaimer: 
 Please read and follow the [Academic Honesty](https://cs50.harvard.edu/x/2022/honesty/).
